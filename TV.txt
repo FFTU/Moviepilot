@@ -31,7 +31,8 @@ The.+Demon.+Hunter.+S02(?=.*E(3[1-9]|4[0-9]|5[0-6]).*) <> 2160p >> EP-30
 #现在就出发 S01
 # Natural.High.S01E01.PartB.2023.2160p.WEB-DL.H265.AAC-TJUPT
 # 现在就出发 S01E01.PartB.2160p 2023.WEB-DL.H265.AAC-TJUPT
-Natural.High.S01 <> PartA >> EP+2
-Natural.High.S01 <> PartB >> EP+3
-Natural.High.S01E => 现在就出发 S01E && S01 <> .PartA >> EP+2
-Natural.High.S01E => 现在就出发 S01E && S01 <> .PartB >> EP+22
+Natural.High.S01 <> PartA >> EP*2-1
+Natural.High.S01 <> PartB >> EP*2
+(?<=(PartB)\.) => 
+#Natural.High.S01E => 现在就出发 S01E && S01 <> .PartA >> EP+2
+#Natural.High.S01E => 现在就出发 S01E && S01 <> .PartB >> EP+22
