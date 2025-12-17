@@ -36,8 +36,8 @@ Natural.High.S01 <> PartB >> EP*2
 (?<=Natural.High.S01.*?)PartA => 
 (?<=Natural.High.S01.*?)PartB => 
 # Natural.High.Season.2025.S03E0
-Natural.High.*.S03 <> part1 >> EP*2-1
-Natural.High.*.S03 <> part2 >> EP*2
+# Natural.High.*.S03 <> part1 >> EP*2-1
+# Natural.High.*.S03 <> part2 >> EP*2
 (?=.*Natural\.High).*(?<=S\d+) <> part1 >> EP*2-1
 (?=.*Natural\.High).*(?<=S\d+) <> part2 >> EP*2
 (?<=Natural.High.*?)part1 => 
