@@ -74,4 +74,7 @@ Natural.High.S01 <> PartB >> EP*2
 (?<=Natural.High.*?)part1 => 
 (?<=Natural.High.*?)part2 => 
 
+#唐诡奇谭 
+唐诡奇谭 => 唐朝诡事录
+
 
