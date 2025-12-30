@@ -78,5 +78,5 @@ Natural.High.S01 <> PartB >> EP*2
 唐诡奇谭 => 唐朝诡事录
 
 #罚罪2
-罚罪.Chasing.the.Undercurrent.S02  => 罚罪2 S01
-(?<=Chasing.the.Undercurrent.*?)S02 => 罚罪2 S01
+罚罪.Chasing.the.Undercurrent.S02 => 罚罪2 S01
+
